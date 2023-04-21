@@ -1,11 +1,11 @@
 <?php
 //declaraciones de variables (php es de tipiado dinamico )
-$numero=55.58;
+$num=55.58;
 $nombre="fernando";
-$Mivariable ;
-$Mivariable="ya le di un valor  " ;
+$Reasig;
+$Reasig="ya le di un valor  " ;
 echo $numero;
-echo $Mivariable;
+echo $Reasig;
 echo "<br> <br> <br> ";
 //tipos de datos;
 
@@ -20,9 +20,9 @@ print "esto es solo una cadena <br>";
 echo "esto es una cadena ","esta es otra cadena <br><br>";
 
 //CONCATENACION
-$string2="el numero que se encuentra almacenado en la variables Entero es: ";
+$s2="el numero que se encuentra almacenado en la variables Entero es: ";
 
-echo $string2.$Entero."<br>"; 
+echo $s2.$Entero."<br>"; 
 print $Float."<br>";
 print $Verdadero."<br>";
 echo"<br>";
@@ -53,11 +53,11 @@ echo"<br><br>";
 
 
 //Reasignar variables
-$saludo="seguimos programando en php";
-$saludo=null;
+$mensaje="seguimos programando en php";
+$mensaje=null;
 
-$saludo="muy buenas";
-echo var_dump($saludo);
+$mensaje="muy buenas";
+echo var_dump($mensaje);
 
 
 /*pseoudo-types , palabras clave

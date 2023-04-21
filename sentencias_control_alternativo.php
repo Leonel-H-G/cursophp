@@ -12,24 +12,24 @@ define('dias', 365);
 define('horas',24);
 
 $año=2005;
-$mayor=18;
+$m=18;
 
-$edad= actual - $año;
-$meses=$edad* meses;
-$dias=$edad*dias;
-$horas= dias*horas*$edad;
+$e= actual - $año;
+$meses=$e* meses;
+$dias=$e*dias;
+$horas= dias*horas*$e;
 
-if (is_numeric($año)&& is_numeric($mayor)&& is_numeric($meses)&& is_numeric($dias)&& is_numeric($horas)):
-  if ($edad >= $mayor):  
+if (is_numeric($año)&& is_numeric($m)&& is_numeric($meses)&& is_numeric($dias)&& is_numeric($horas)):
+  if ($e >= $m):  
     echo "eres mayor de edad por que: ";
-    echo "tienes: ".$edad." años de vida <br>";
+    echo "tienes: ".$e." años de vida <br>";
     echo "son: ".$meses." meses de vida <br>";
     echo "son: ".$dias." dias de vida <br>";
     echo "son: ".$horas." horas de vida <br>";
   else:
     
     echo "eres menor de edad por que: ";
-    echo "tienes: ".$edad." años de vida <br>";
+    echo "tienes: ".$e." años de vida <br>";
     echo "son: ".$meses." meses de vida <br>";
     echo "son: ".$dias." dias de vida <br>";
     echo "son: ".$horas." horas de vida <br>";
@@ -37,7 +37,7 @@ if (is_numeric($año)&& is_numeric($mayor)&& is_numeric($meses)&& is_numeric($di
 
 else:
 
-    echo "algunos de los valores asignados en las variables no son valor numericos ";
+    echo "los valores asignados en las variables no son valor numericos ";
 
 endif;
 ?>

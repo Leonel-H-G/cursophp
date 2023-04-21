@@ -3,24 +3,24 @@
 if (isset($_POST['Enviar'])) {
 
     //recuperacion de los campos 
-    $Nombre=$_POST['nombre'];
-    $Apellidos=$_POST['apellidos'];
-    $Fecha=$_POST['fecha'];
-    $Email=$_POST['email'];
+    $Ne=$_POST['nombre'];
+    $Ap=$_POST['apellidos'];
+    $Fc=$_POST['fecha'];
+    $Ema=$_POST['email'];
 
     //validacion si los datos estan vacios 
-    if ($Nombre=="") {
+    if ($Ne=="") {
         echo" Falta asignar un nombre ";
-    }    elseif ($Apellidos=="") {
+    }    elseif ($Ap=="") {
             echo" Falta asignar apellidos ";
-        }elseif ($Fecha=="") {
+        }elseif ($Fc=="") {
             echo" Falta asignar tu fecha de nacimiento ";
-        }elseif ($Email=="") {
+        }elseif ($Em=="") {
             echo" Falta asignar tu correo electronico";
         }
         //alertas 
     else {
-        echo"Tu nombre es ".$Nombre." Tus apellidos son: ".$Apellidos." tu dia de nacimiento es: ".$Fecha." tu correo es ".$Email;
+        echo"Tu nombre es ".$Ne." Tus apellidos son: ".$Ap." tu dia de nacimiento es: ".$Fc." tu correo es ".$Ema;
     }
 
 

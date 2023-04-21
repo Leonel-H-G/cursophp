@@ -1,18 +1,18 @@
 <?php
 if (isset($_POST['btnsum'])) {
 
-    $Num1=$_POST['num1'];
-    $Num2=$_POST['num2'];
+    $N1=$_POST['num1'];
+    $N2=$_POST['num2'];
 
-    if (!is_numeric($Num1)) {
+    if (!is_numeric($N1)) {
         echo "el valor asigando no es un valor numerico";
     }
-    elseif (!is_numeric($Num2)) {
+    elseif (!is_numeric($N2)) {
         echo "el valor asigando en la caja 2 no es un valor numerico";
     }
     else{
-        $suma=$Num1+$Num2;
-        echo "el valor de la suma es ".$suma;
+        $resultado=$N1+$N2;
+        echo "el valor de la suma es ".$resultado;
     }
 }
 

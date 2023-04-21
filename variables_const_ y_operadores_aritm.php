@@ -2,23 +2,23 @@
 //declarar una variable + identificador + asignacion de dato o valor 
 
 $Variables =45;
-$Mensaje ="El valor de la variables es: ";
-$Numero1= 56;
-$Numero2= 24;
-$Numero3= 89;
+$Alerta ="El valor de la variables es: ";
+$N1= 56;
+$N2= 24;
+$N3= 89;
 
 //operadores aritmeticos (+,-,*,/)
-$Suma =$Numero1+$Numero2+$Numero3;
-echo "la suma de".$Numero1."+".$Numero2."+".$Numero3."=".$Suma."<br>";
+$Suma =$N1+$N2+$N3;
+echo "la suma de".$N1."+".$N2."+".$N3."=".$Suma."<br>";
 
-$resta=$Numero1-$Numero2-$Numero3;
-echo "la resta de".$Numero1."-".$Numero2."-".$Numero3."=".$resta."<br>";
+$resta=$N1-$Numero2-$N3;
+echo "la resta de".$N1."-".$N2."-".$N3."=".$resta."<br>";
 
-$Multiplicacion=$Numero1*$Numero2*$Numero3;
-echo "la multipliacion de".$Numero1."*".$Numero2."*".$Numero3."=".$Multiplicacion."<br>";
+$Multiplicacion=$N1*$Numero2*$N3;
+echo "la multipliacion de".$N1."*".$N2."*".$N3."=".$Multiplicacion."<br>";
 
-$Division=$Numero1/$Numero2/$Numero3;
-echo "la division de".$Numero1."/".$Numero2."/".$Numero3."=".$Division."<br>";
+$Division=$N1/$Numero2/$N3;
+echo "la division de".$N1."/".$N2."/".$N3."=".$Division."<br>";
 
 //declarar una contante (no cambia)
 define ('Hora','consta de 60 minutos');

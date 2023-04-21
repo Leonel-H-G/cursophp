@@ -4,13 +4,13 @@
 //foreach blucle especial que permite recorrer las esestucturas que contienen varios elementos
 
 $valores= array(false,true,null,'aeiou','23',23,'23.5','','','0',0); 
- foreach ($valores as $valor){
+ foreach ($valores as $Ext){
     echo "es un string(";
     //var_export: obtiene la informacion estructurada de la varible dada , saca la informacion 
-    var_export($valor);
+    var_export($Ext);
     echo")=";
 
-   echo var_dump(is_string($valor));
+   echo var_dump(is_string($Ext));
  
 echo"<br><br><br>";
 

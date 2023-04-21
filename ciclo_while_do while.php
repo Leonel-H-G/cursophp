@@ -17,13 +17,13 @@ do{
 
 */
 
-$variable=0;
-while ($variable < 25) {
-    $variable ++; //se incrementa la variable  uno en uno 
-    echo"el valor de la variable es: = ".$variable."<br> <br>";
+$var=0;
+while ($var < 25) {
+    $var ++; //se incrementa la variable  uno en uno 
+    echo"el valor de la variable es: = ".$var."<br> <br>";
 
 }
-echo "el ciclo while acaba en ".$variable;
+echo "el ciclo while acaba en ".$var;
 
 echo"<br><br><br>";
 
@@ -50,12 +50,12 @@ echo "generar la tabla de multiplicar utilizando el ciclo while <br>";
 
 
 $numero=2;
-$i=1;
+$inc=1;
 
-while ($i<= 10):
+while ($inc<= 10):
 
-    echo $i."x".$numero."=".($i *$numero)."<br>";
-    $i++;
+    echo $inc."x".$numero."=".($inc *$numero)."<br>";
+    $inc++;
 
 endwhile;
     
@@ -64,9 +64,9 @@ echo " <br><br><br>";
 
 do {
     
-    echo $numero." x ".$i. " =".($i*$numero)."<br>";
-    $i++;
+    echo $numero." x ".$inc. " =".($inc*$numero)."<br>";
+    $inc++;
 
-} while ($i <= 10);
+} while ($inc <= 10);
 
 ?>
